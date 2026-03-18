@@ -1,15 +1,9 @@
-// To count how many numbers from 1-100 are divisible by 9.
 #include<stdio.h>
 int main(){
     int i;
-    int count=0;
-    for(i=1;i<=100;i++){ 
-        if(i%9==0){
-            count++;
-        }
+    int x=2;
+    for(i=1;i<=10;i++){
+    x=2*i;
+    printf("%d",x);
+    }
 }
-printf("%d",count);
-}
-    
-
-
